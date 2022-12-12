@@ -1,0 +1,26 @@
+@use "../colors/Allcolors" as *;
+
+h1 , h2, h3 , h4{
+  font-weight: 700;
+  line-height: 1.1;
+  margin-top: 0;
+  color: $dark-blue;
+}
+
+
+p , span {
+  margin-top: 0;
+  color: $text;
+  letter-spacing: 0.041em;
+  line-height: 1.5;
+}
+
+a, a:visited, a:active{
+  text-decoration: none;
+  color: unset;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}

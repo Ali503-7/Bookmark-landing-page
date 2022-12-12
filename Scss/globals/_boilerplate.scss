@@ -1,0 +1,31 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*, *::after, *::before{
+  box-sizing: inherit;
+  transition: .5s;
+  font-family: 'Rubik', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+
+  margin: 0;
+  padding: 0;
+
+  overflow-x: hidden;
+
+  
+}
+
+:root {
+  --main-color: red;
+  --main-font-S: 16px;
+}
+
+
+
+$max-mobile : 'max-width: 767px';
+
